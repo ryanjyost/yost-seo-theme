@@ -1,17 +1,117 @@
 /*
-Theme Name: Yost Seo Theme
+Theme Name: Emily Yost Seo Theme
 Author: Ryan Yost
-Description: Theme for the site
+Description: A theme for emilyyostseo.com
 Version: 0.0.1
 Tags: bootstrap
 */
 
-$color: #000000;
 
-h1{
-	background-color: $color;
+/*--------------------------------------------------------------------
+>>>TABLE OF CONTENTS
+----------------------------------------------------------------------
+
+1. Main styling variables
+2. Default styling for basic elements
+3. Typography
+4. Elements
+5. Bootstrap Elements
+
+
+--------------------------------------------------------------------*/
+
+
+/*================================
+1. Main Styling Variables & defaults
+=================================*/
+
+/* Colors */
+$primary-color: #58ACFA;
+$light-gray: #D8D8D8;
+$black: #333333;
+$white: #ffffff;
+
+/*================================
+2. Default styling
+=================================*/
+
+html{
+	background-color: $primary-color;
 }
 
-span{
-	color:$color;
+
+
+/*================================
+3. Typography
+=================================*/
+
+/*================================
+4. Elements
+=================================*/
+
+#contact-form{
+	display:block;
+	width:70%;
+	max-width: 600px;
+	margin:auto;
+
+	input{
+		margin:5px 0px 5px 0px;
+		padding:5px 5px 5px 5px;
+		width:100%;
+	};
+
+	textarea{
+		margin:5px 0px 5px 0px;
+		padding:5px 5px 5px 5px;
+		width:100%;
+	}
 }
+
+
+/*================================
+5. Bootstrap Elements
+=================================*/
+
+.row{
+	margin:0px 0px 0px 0px;
+}
+
+.jumbotron{
+	background-color: $primary-color;
+	margin:0px 0px 0px 0px;
+
+	h1{
+		color: $white;
+		text-align:center;
+	};
+
+	h3{
+		color:$white;
+	};
+
+}
+
+.get-in-touch{
+	text-align:center;
+	margin:3vh 0px 20px 0px;
+	padding: 0px 20% 0px 20%;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
