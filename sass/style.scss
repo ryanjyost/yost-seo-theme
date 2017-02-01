@@ -1,13 +1,17 @@
 /*
-Theme Name: Yost Seo Theme
+Theme Name: Emily Yost Seo Theme
 Author: Ryan Yost
-Description: Theme for the site
+Description: A theme for emilyyostseo.com
 Version: 0.0.1
 Tags: bootstrap
 */
 
-$color: #000000;
+/*======================
+Colors
+======================*/
+$primary: #f7f7f7;
 
-h1{
-	background-color: $color;
+
+body{
+	background-color: $primary;
 }

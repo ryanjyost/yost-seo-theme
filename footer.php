@@ -1,11 +1,11 @@
 <?php
 /*******************
-Index page
+footer.php
 ********************/
 ?>
 
-<?php get_header() ?>
-  <body>
 
+<?php wp_footer(); ?>
 
-
+</body>
+</html>

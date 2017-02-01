@@ -5,66 +5,10 @@ Description: A theme for emilyyostseo.com
 Version: 0.0.1
 Tags: bootstrap
 */
-/*--------------------------------------------------------------------
->>>TABLE OF CONTENTS
-----------------------------------------------------------------------
-
-1. Main styling variables
-2. Default styling for basic elements
-3. Typography
-4. Elements
-5. Bootstrap Elements
-
-
---------------------------------------------------------------------*/
-/*================================
-1. Main Styling Variables & defaults
-=================================*/
-/* Colors */
-/*================================
-2. Default styling
-=================================*/
-html {
-  background-color: #58ACFA; }
-
-/*================================
-3. Typography
-=================================*/
-/*================================
-4. Elements
-=================================*/
-#contact-form {
-  display: block;
-  width: 70%;
-  max-width: 600px;
-  margin: auto; }
-  #contact-form input {
-    margin: 5px 0px 5px 0px;
-    padding: 5px 5px 5px 5px;
-    width: 100%; }
-  #contact-form textarea {
-    margin: 5px 0px 5px 0px;
-    padding: 5px 5px 5px 5px;
-    width: 100%; }
-
-/*================================
-5. Bootstrap Elements
-=================================*/
-.row {
-  margin: 0px 0px 0px 0px; }
-
-.jumbotron {
-  background-color: #58ACFA;
-  margin: 0px 0px 0px 0px; }
-  .jumbotron h1 {
-    color: #ffffff;
-    text-align: center; }
-  .jumbotron h3 {
-    color: #ffffff; }
-
-.get-in-touch {
-  text-align: center;
-  margin: 3vh 0px 20px 0px;
-  padding: 0px 20% 0px 20%; }
+/*======================
+Colors
+======================*/
+body {
+  background-color: #f7f7f7; }
 
 /*# sourceMappingURL=style.css.map */
